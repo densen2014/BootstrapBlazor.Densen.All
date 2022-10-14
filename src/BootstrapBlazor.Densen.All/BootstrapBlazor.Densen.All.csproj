@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+    <PropertyGroup>
+        <TargetFrameworks>net6.0</TargetFrameworks>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Version>6.0.0</Version>
+        <PackageProjectUrl>https://github.com/densen2014/BootstrapBlazor.Densen.All</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/densen2014/BootstrapBlazor.Densen.All</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Blazor 组件懒人包</PackageTags>
+        <Description>Blazor 组件懒人包</Description>
+        <AssemblyName>BootstrapBlazor.Densen.All</AssemblyName>
+        <RootNamespace>BootstrapBlazor.Densen.All</RootNamespace>
+        <AssemblyOriginatorKeyFile>..\keys\Longbow.Utility.snk</AssemblyOriginatorKeyFile>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="BootstrapBlazor.BaiduMap" Version="6.2.1" />
+        <PackageReference Include="BootstrapBlazor.Bluetooth" Version="6.2.1" />
+        <PackageReference Include="BootstrapBlazor.FileSystem" Version="6.0.0" />
+        <PackageReference Include="BootstrapBlazor.Geolocation" Version="6.2.2" />
+        <PackageReference Include="BootstrapBlazor.Maps" Version="6.2.1" />
+        <PackageReference Include="BootstrapBlazor.OCR" Version="6.2.1" />
+        <PackageReference Include="BootstrapBlazor.OnScreenKeyboard" Version="6.2.1" />
+        <PackageReference Include="BootstrapBlazor.SignaturePad" Version="6.2.1" />
+        <PackageReference Include="BootstrapBlazor.Viewer" Version="6.2.1" />
+        <PackageReference Include="BootstrapBlazor.WebAPI" Version="6.2.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.10" />
+    </ItemGroup>
+</Project>
