@@ -23,7 +23,7 @@
         <PackageReference Include="BootstrapBlazor.FileSystem" Version="6.0.0" />
         <PackageReference Include="BootstrapBlazor.Geolocation" Version="6.2.2" />
         <PackageReference Include="BootstrapBlazor.Maps" Version="6.2.1" />
-        <PackageReference Include="BootstrapBlazor.OCR" Version="6.2.1" />
+        <PackageReference Include="BootstrapBlazor.OCR" Version="6.2.4" />
         <PackageReference Include="BootstrapBlazor.OnScreenKeyboard" Version="6.2.1" />
         <PackageReference Include="BootstrapBlazor.SignaturePad" Version="6.2.1" />
         <PackageReference Include="BootstrapBlazor.Viewer" Version="6.2.1" />
