@@ -27,7 +27,14 @@
         <PackageReference Include="BootstrapBlazor.OnScreenKeyboard" Version="7.0.0" />
         <PackageReference Include="BootstrapBlazor.SignaturePad" Version="7.0.0" />
         <PackageReference Include="BootstrapBlazor.Viewer" Version="7.0.0" />
-        <PackageReference Include="BootstrapBlazor.WebAPI" Version="7.0.0" />
+        <PackageReference Include="BootstrapBlazor.WebAPI" Version="7.0.0" /> 
+    </ItemGroup>
+    <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
         <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.10" />
     </ItemGroup>
+
+    <ItemGroup Condition="'$(TargetFramework)' == 'net7.0'">
+        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0" />
+    </ItemGroup>
+
 </Project>
