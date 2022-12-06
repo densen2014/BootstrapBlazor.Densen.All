@@ -1,4 +1,4 @@
-# Densen.Extensions
+# Densen.Extensions Blazor 组件懒人包服务
 Densen's Blazor component library and BootstrapBlazor service extension package
 
  [English](README.md) | [中文](README.zh-CN.md) | [demo](https://blazor.app1.es/) | [github](https://github.com/densen2014/Densen.Extensions) | [gitee(mirror only)](https://gitee.com/densen2014/Densen.Extensions)
