@@ -1,4 +1,18 @@
+# Densen.Extensions Blazor 组件懒人包 
+
+ [English](README.md) | [中文](README.zh-CN.md) | [demo](https://blazor.app1.es/) | [github](https://github.com/densen2014/BootstrapBlazor.Densen.All) | [gitee(mirror only)](https://gitee.com/densen2014/BootstrapBlazor.Densen.All)
+ 
+---
+
+Nuget
+
+[BootstrapBlazor.Densen.All](https://www.nuget.org/packages/BootstrapBlazor.Densen.All) |  [Densen.Component.Blazor](https://www.nuget.org/packages/Densen.Component.Blazor/) | [Densen.Extensions.BootstrapBlazor](https://www.nuget.org/packages/Densen.Extensions.BootstrapBlazor/)  | [FreeSql.Extensionsr.BootstrapBlazor](https://www.nuget.org/packages/Densen.FreeSql.Extensions.BootstrapBlazor/)  | [ZXingBlazor](https://www.nuget.org/packages/ZXingBlazor/)
+ 
+
+---
+
 #### Blazor 组件
+[Blazor 组件懒人包 BootstrapBlazor.Densen.All](https://www.nuget.org/packages/BootstrapBlazor.Densen.All)
 
 [条码扫描 ZXingBlazor](https://www.nuget.org/packages/ZXingBlazor#readme-body-tab)
 [![nuget](https://img.shields.io/nuget/v/ZXingBlazor.svg?style=flat-square)](https://www.nuget.org/packages/ZXingBlazor) 
