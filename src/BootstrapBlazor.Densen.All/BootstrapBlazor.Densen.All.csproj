@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <Version>7.0.2</Version>
+        <Version>7.0.3</Version>
         <PackageProjectUrl>https://github.com/densen2014/BootstrapBlazor.Densen.All</PackageProjectUrl>
         <RepositoryUrl>https://github.com/densen2014/BootstrapBlazor.Densen.All</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
@@ -32,7 +32,7 @@
       <PackageReference Include="BootstrapBlazor.Maps" Version="7.0.0" />
       <PackageReference Include="BootstrapBlazor.OCR" Version="7.0.3" />
       <PackageReference Include="BootstrapBlazor.OnScreenKeyboard" Version="7.0.0" />
-      <PackageReference Include="BootstrapBlazor.PdfReader" Version="7.0.2" />
+      <PackageReference Include="BootstrapBlazor.PdfReader" Version="7.0.3" />
       <PackageReference Include="BootstrapBlazor.SignaturePad" Version="7.0.0" />
       <PackageReference Include="BootstrapBlazor.Viewer" Version="7.0.0" />
       <PackageReference Include="BootstrapBlazor.WebAPI" Version="7.0.0" />
