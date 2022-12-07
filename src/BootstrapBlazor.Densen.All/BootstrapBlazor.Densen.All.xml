@@ -9,13 +9,6 @@
             懒人包服务扩展类
             </summary>
         </member>
-        <member name="M:Microsoft.Extensions.DependencyInjection.AllCollectionExtensions.AddAllExtensions(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
-            <summary>
-            增加文件系统服务扩展类,<para></para>
-            </summary>
-            <param name="services"></param> 
-            <returns></returns>
-        </member>
         <member name="M:Microsoft.Extensions.DependencyInjection.AllCollectionExtensions.AddAllExtensions(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.String,System.String)">
             <summary>
             增加懒人包服务服务扩展类,<para></para>

@@ -14,17 +14,6 @@ namespace Microsoft.Extensions.DependencyInjection
     {
 
         /// <summary>
-        /// 增加文件系统服务扩展类,<para></para>
-        /// </summary>
-        /// <param name="services"></param> 
-        /// <returns></returns>
-        public static IServiceCollection AddAllExtensions(this IServiceCollection services)
-        {
-            services.AddFileSystemExtensions();
-            return services;
-        }
-
-        /// <summary>
         /// 增加懒人包服务服务扩展类,<para></para>
         /// </summary>
         /// <param name="services"></param>
@@ -35,7 +24,6 @@ namespace Microsoft.Extensions.DependencyInjection
         /// <returns></returns>
         public static IServiceCollection AddAllExtensions(this IServiceCollection services, string OCRkey, string OCRurl, string AIFormkey, string AIFormurl)
         {
-            services.AddFileSystemExtensions();
             services.AddAIFormExtensions(AIFormkey, AIFormurl);
             services.AddOcrExtensions(OCRkey, OCRurl);
             return services;
