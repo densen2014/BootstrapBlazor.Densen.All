@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <Version>7.0.3</Version>
+        <Version>7.0.5</Version>
         <PackageProjectUrl>https://github.com/densen2014/BootstrapBlazor.Densen.All</PackageProjectUrl>
         <RepositoryUrl>https://github.com/densen2014/BootstrapBlazor.Densen.All</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
@@ -15,6 +15,7 @@
         <AssemblyName>BootstrapBlazor.Densen.All</AssemblyName>
         <RootNamespace>BootstrapBlazor.Densen.All</RootNamespace>
         <AssemblyOriginatorKeyFile>..\keys\Longbow.Utility.snk</AssemblyOriginatorKeyFile>
+        <SignAssembly>True</SignAssembly>
     </PropertyGroup>
     <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
         <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.10" />
@@ -25,17 +26,17 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="BootstrapBlazor.BaiduMap" Version="7.0.0" />
-      <PackageReference Include="BootstrapBlazor.Bluetooth" Version="7.0.0" />
-      <PackageReference Include="BootstrapBlazor.FileSystem" Version="7.0.1" />
-      <PackageReference Include="BootstrapBlazor.Geolocation" Version="7.0.0" />
-      <PackageReference Include="BootstrapBlazor.Maps" Version="7.0.0" />
-      <PackageReference Include="BootstrapBlazor.OCR" Version="7.0.3" />
-      <PackageReference Include="BootstrapBlazor.OnScreenKeyboard" Version="7.0.0" />
-      <PackageReference Include="BootstrapBlazor.PdfReader" Version="7.0.3" />
-      <PackageReference Include="BootstrapBlazor.SignaturePad" Version="7.0.0" />
-      <PackageReference Include="BootstrapBlazor.Viewer" Version="7.0.0" />
-      <PackageReference Include="BootstrapBlazor.WebAPI" Version="7.0.0" />
+      <PackageReference Include="BootstrapBlazor.BaiduMap" Version="7.0.1" />
+      <PackageReference Include="BootstrapBlazor.Bluetooth" Version="7.0.1" />
+      <PackageReference Include="BootstrapBlazor.FileSystem" Version="7.0.2" />
+      <PackageReference Include="BootstrapBlazor.Geolocation" Version="7.0.1" />
+      <PackageReference Include="BootstrapBlazor.Maps" Version="7.0.1" />
+      <PackageReference Include="BootstrapBlazor.OCR" Version="7.0.4" />
+      <PackageReference Include="BootstrapBlazor.OnScreenKeyboard" Version="7.0.1" />
+      <PackageReference Include="BootstrapBlazor.PdfReader" Version="7.0.6" />
+      <PackageReference Include="BootstrapBlazor.SignaturePad" Version="7.0.1" />
+      <PackageReference Include="BootstrapBlazor.Viewer" Version="7.0.1" />
+      <PackageReference Include="BootstrapBlazor.WebAPI" Version="7.0.1" />
       <PackageReference Include="ZXingBlazor" Version="0.2.6" />
     </ItemGroup>
 
