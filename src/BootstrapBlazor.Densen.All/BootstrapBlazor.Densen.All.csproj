@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <Version>7.1.0</Version>
+        <Version>7.1.1</Version>
         <PackageProjectUrl>https://github.com/densen2014/BootstrapBlazor.Densen.All</PackageProjectUrl>
         <RepositoryUrl>https://github.com/densen2014/BootstrapBlazor.Densen.All</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
